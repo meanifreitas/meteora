@@ -1,0 +1,7 @@
+button {
+  background: transparent;
+  border: 1px solid var(--white);
+  height: 2.375rem;
+  color: var(--white);
+  padding: 0 .75rem;
+}
