@@ -118,3 +118,21 @@
     top: 75%
   }
 }
+
+@media (max-width: 1024px) {
+  .arrowNav {
+    top: 45%;
+  }
+
+  .buttonNav {
+    top: 75%;
+  }
+
+  .description.second {
+    left: 45%
+  } 
+
+  .description h3 {
+    font-size: 2rem;
+  }
+}
