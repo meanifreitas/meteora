@@ -1,0 +1,89 @@
+.container {
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  transition: transform .3s ease;
+}
+
+.item {
+  width: 100%;
+  position: relative;
+}
+
+.description {
+  width: 100%;
+  position: absolute;
+  color: var(--white);
+  font-family: var(--first-type);
+}
+
+.description.second {
+  top: 40%;
+  left: 55%;
+}
+
+.description.third {
+  top: 40%;
+  left: 10%;
+}
+
+.description h3 {
+  font-size: 3rem;
+  font-weight: 500;
+  word-wrap: nowrap;
+  text-transform: uppercase;
+}
+
+.description p {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+
+.arrowNav {
+  width: 100%;
+  padding: 0 1rem;
+  position: absolute;
+  top: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrowNav button {
+  background: transparent;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+.buttonNav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  position: absolute;
+  top: 65%;
+}
+
+.buttonNav button {
+  background: transparent;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.buttonNav button::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: var(--white);
+  opacity: .5;
+}
+
+.currentButton::after {
+  opacity: 1 !important;
+}
