@@ -1,6 +1,7 @@
 import './App.css';
-import Header from './Components/Header';
-import Carousel from './Components/Carousel';
+import { Header } from './Components/Header';
+import { Carousel } from './Components/Carousel';
+import { Categories } from './Components/Categories';
 
 function App() {
 
@@ -8,6 +9,10 @@ function App() {
     <>
       <Header />
       <Carousel />
+      <section className='categories'>
+        <Categories />
+      </section>
+
     </>
   );
 }

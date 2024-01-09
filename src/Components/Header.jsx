@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
 import useDeviceType from '../Hooks/useDevideType';
@@ -8,7 +7,7 @@ import TabletLogo from '../assets/Tablet/logo.png';
 import Input from './Input';
 import Button from './Button';
 
-const Header = () => {
+export function Header () {
   const logo = useDeviceType === 'mobile' ? MobileLogo : useDeviceType === 'tablet' ? TabletLogo : DesktopLogo;
   return (<>
     <header>
@@ -32,5 +31,3 @@ const Header = () => {
       </div>
     </>);
 }
-
-export default Header;

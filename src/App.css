@@ -15,6 +15,17 @@
   box-sizing: border-box;
 }
 
+h3, p {
+  font-family: var(--first-type);
+}
+
+.categories {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 10rem;
+}
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -28,5 +39,17 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .categories {
+    padding: 3rem 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .categories {
+    padding: 3rem 1rem;
   }
 }

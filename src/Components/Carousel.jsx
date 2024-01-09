@@ -18,7 +18,7 @@ import Slide3Tablet from '../assets/Tablet/Banner-carousel-3.png';
 import { ArrowLeft, ArrowRight } from 'phosphor-react';
 
 
-const Carousel = () => {
+export function Carousel()  {
   const deviceType = useDeviceType();
   const [position, setPosition] = React.useState(0);
   const [active, setActive] = React.useState(0);
@@ -87,5 +87,3 @@ const Carousel = () => {
     </section>
   );
 }
-
-export default Carousel;
