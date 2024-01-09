@@ -41,7 +41,6 @@
   font-weight: 400;
 }
 
-
 .arrowNav {
   width: 100%;
   padding: 0 1rem;
@@ -86,4 +85,36 @@
 
 .currentButton::after {
   opacity: 1 !important;
+}
+
+@media (max-width: 768px) {
+  .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .description h3 {
+    font-size: 2rem;
+  }
+
+  .description p {
+    font-size: 1rem;
+  }
+
+  .description.second {
+    top: 50%;
+    left: auto;
+  }
+  
+  .description.third {
+    top: 50%;
+    left: auto;
+  }
+  
+  .buttonNav {
+    top: 75%
+  }
 }
