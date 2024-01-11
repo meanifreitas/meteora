@@ -1,0 +1,50 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 8rem;
+  gap: 3rem;
+}
+
+.wrapper > h3 {
+  color: var(--second-black);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.content {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 21.875rem;
+}
+
+.productInfo {
+  padding: 1rem;
+  color: var(--second-black);
+}
+
+.title, .price {
+  font-weight: 700;
+}
+
+.description {
+  font-size: .8125rem;
+  font-weight: 400;
+  margin: .8rem auto;
+}
+
+.item button {
+  background: var(--purple);
+  color: var(--white);
+  margin-top: .625rem;
+  padding: .5625rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
