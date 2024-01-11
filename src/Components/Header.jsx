@@ -4,8 +4,8 @@ import useDeviceType from '../Hooks/useDevideType';
 import DesktopLogo from '../assets/desktop/logo.png';
 import MobileLogo from '../assets/Mobile/logo.png';
 import TabletLogo from '../assets/Tablet/logo.png';
-import Input from './Input';
-import Button from './Button';
+import { Input } from './Input';
+import { Button } from './Button';
 
 export function Header () {
   const logo = useDeviceType === 'mobile' ? MobileLogo : useDeviceType === 'tablet' ? TabletLogo : DesktopLogo;

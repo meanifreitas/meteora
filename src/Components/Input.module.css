@@ -1,10 +1,10 @@
-input {
+.input {
   background: var(--white);
   height: 2.375rem;
   border: none;
   padding: 0;
 }
 
-input:focus {
+.input:focus {
   outline: none;
 }

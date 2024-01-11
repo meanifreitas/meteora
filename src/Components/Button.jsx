@@ -1,10 +1,7 @@
-import React from 'react';
 import styles from './Button.module.css';
 
-const Button = ({onClick, ...props}) => {
+export function Button ({onClick, ...props}) {
   return (
-    <button onClick={onClick}>{props.children}</button>
+    <button onClick={onClick} className={styles.button}>{props.children}</button>
   );
 }
-
-export default Button;
