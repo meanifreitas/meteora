@@ -3,6 +3,8 @@ import { Header } from './Components/Header';
 import { Carousel } from './Components/Carousel';
 import { Categories } from './Components/Categories';
 import { Cards } from './Components/Cards';
+import { Features } from './Components/Features';
+
 
 function App() {
 
@@ -14,6 +16,7 @@ function App() {
         <Categories />
       </section>
       <Cards />
+      <Features />
     </>
   );
 }
